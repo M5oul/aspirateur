@@ -1,0 +1,44 @@
+body {
+	background-color: antiquewhite;
+}
+.room {
+	background-color: black;
+	border-radius: 5px;
+	padding: 1px;
+}
+.tile {
+	background-color: yellow;
+	float: left;
+	border-radius: 5px;
+}
+.vacuum {
+	background-color: red;
+	float: left;
+	border-radius: 23px;
+}
+.arrow-N {
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid black;
+}
+.arrow-E {
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid black;
+	position: relative;
+	left: 25px;
+}
+.arrow-S {
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 25px solid black;
+	position: relative;
+	top: 25px;
+}
+.arrow-W {
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-right: 25px solid black;
+	position: relative;
+	right: 25px;
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title>Aspirateur</title>
+		<link rel="stylesheet" type="text/css" href="aspirateur.css">
+	</head>
+	<body>
+		<script src="aspirateur.js"></script>
+		<center>
+			<h1>Aspirateur</h1>
+			<form method="POST" action="javascript:clean();">
+				Sequence of movements ('D', 'G' and 'A'):
+				<input name="moves" id="moves" type="text" value="DADADADAA">
+				<br />
+				<br />
+				Room size:
+				x: <input name="room_size_x" id="room_size_x" type="number" min="2" max="15" value="10">
+				y: <input name="room_size_y" id="room_size_y" type="number" min="2" max="15" value="10">
+				<br />
+				<br />
+				Initial position:
+				x: <input name="init_pos_x" id="init_pos_x" type="number" min="0" value="5">
+				y: <input name="init_pos_y" id="init_pos_y" type="number" min="0" value="5">
+				<br />
+				<br />
+				Initial vacuum direction:
+				<select name="direction" id="direction" type="text" size="1" value="N">
+					<option>N<option>E<option>S<option>W
+				</select>
+				<input name="submit" type="submit" value="Clean the room!">
+			</form>
+			<br />
+			<div id="room"></div>
+		</center>
+	</body>
+</html>
