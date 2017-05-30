@@ -1,3 +1,5 @@
+/*const angular = require('@angular/common')*/
+
 function display_error(str) {
 	alert(str);
 	console.error(str);
